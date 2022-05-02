@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+   
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">@vartika</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-user-circle icon'></i>
+                            <span class="text nav-text">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-report icon' ></i>
+                            <span class="text nav-text">Projects</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Resume</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-message-check icon' ></i>
+                            <span class="text nav-text">Contact</span>
+                        </a>
+                    </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">"Code is like humour. When you have to explain it, it's bad. - Cory House</div>
+        
+        <div class="infoContainer">
+            <div class="info">
+                <div class="hello">Amigo, i am</div>
+                <div class="name">Vartika Yadava</div>
+                <div class="about">Pre-Final year undergraduate CSE student</div>
+                <div class="about_more">I feel great to have you Onboard, and I hope your next few seconds here will probably be worthwhile.</div>
+                <div class="buttons">
+                    <button>Download Resume</button>
+                    <button>Contact Me</button>
+                </div>
+        </div>
+        <div class="pic"><img src="imgV.png" alt="vartika"></div>
+    </section>
+
+    <div class="pic2"><img src="port.gif" alt="vartika"></div>
+    <div class="Ab_me">
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <h2 style="margin-bottom: 10px; font-family:'Homemade Apple', cursive;">About me :)</h2>
+                    <p>A crisp and small intro, myself Vartika a girl who loves to take up new challenges and explore new things. I love socializing and exchanging ideas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+    </script>
+
+</body>
+</html>
