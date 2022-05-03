@@ -1,2 +1,2 @@
 # portfolio_vartika
-Just a learning project 
+Just another learning project 
